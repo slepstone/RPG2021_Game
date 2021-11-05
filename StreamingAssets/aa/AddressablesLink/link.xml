@@ -41,7 +41,6 @@
     <type fullname="FighterComboCounterUI" preserve="all" />
     <type fullname="FighterPowerUI" preserve="all" />
     <type fullname="gameControl" preserve="all" />
-    <type fullname="Health" preserve="all" />
     <type fullname="HealthBar" preserve="all" />
     <type fullname="InCollliderSelectionProcessor" preserve="all" />
     <type fullname="InputDirectionProvider" preserve="all" />
@@ -53,7 +52,6 @@
     <type fullname="LineAttackIndicator" preserve="all" />
     <type fullname="LootbagUI" preserve="all" />
     <type fullname="LootGranter" preserve="all" />
-    <type fullname="MenuSceneController" preserve="all" />
     <type fullname="MobileDisableAutoSwitchControls" preserve="all" />
     <type fullname="MovementSpeedModifier" preserve="all" />
     <type fullname="ObjectSelection.ColliderPositionCheck" preserve="all" />
@@ -131,6 +129,14 @@
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
   </assembly>
+  <assembly fullname="DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Doozy.Runtime.Reactor.Targets.ImageColorTarget" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Animators.UIContainerUIAnimator" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Animators.UISelectableColorAnimator" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Animators.UISelectableUIAnimator" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Components.UIButton" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Containers.UIView" preserve="all" />
+  </assembly>
   <assembly fullname="DungeonArchitect.Builders, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DungeonArchitect.Builders.GridFlow.GridFlowMinimapTrackedObject" preserve="all" />
   </assembly>
@@ -180,12 +186,8 @@
     <type fullname="MoreMountains.Tools.MMProgressBar" preserve="all" />
     <type fullname="MoreMountains.Tools.MMSimpleObjectPooler" preserve="all" />
   </assembly>
-  <assembly fullname="NavMeshComponents, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AI.NavMeshSurface" preserve="all" />
-  </assembly>
   <assembly fullname="ShapesRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Shapes.Disc" preserve="all" />
-    <type fullname="Shapes.Line" preserve="all" />
     <type fullname="Shapes.Rectangle" preserve="all" />
   </assembly>
   <assembly fullname="Slepstone.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -276,6 +278,7 @@
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshObstacle" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -300,7 +303,6 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
-    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
@@ -335,6 +337,7 @@
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />

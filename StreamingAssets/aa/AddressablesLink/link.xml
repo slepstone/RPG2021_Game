@@ -52,6 +52,7 @@
     <type fullname="LineAttackIndicator" preserve="all" />
     <type fullname="LootbagUI" preserve="all" />
     <type fullname="LootGranter" preserve="all" />
+    <type fullname="MainMenuController" preserve="all" />
     <type fullname="MobileDisableAutoSwitchControls" preserve="all" />
     <type fullname="MovementSpeedModifier" preserve="all" />
     <type fullname="ObjectSelection.ColliderPositionCheck" preserve="all" />

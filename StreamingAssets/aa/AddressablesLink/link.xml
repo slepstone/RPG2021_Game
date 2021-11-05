@@ -1,0 +1,351 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AbilityDamageModifier" preserve="all" />
+    <type fullname="BasicRigidBodyPush" preserve="all" />
+    <type fullname="Battle.AbilityHitboxBehaviour" preserve="all" />
+    <type fullname="Battle.BattleManager" preserve="all" />
+    <type fullname="Battle.DefaultDeathEventHandler" preserve="all" />
+    <type fullname="Battle.DefaultHittedEventHandler" preserve="all" />
+    <type fullname="Battle.DefaultPoiseController" preserve="all" />
+    <type fullname="Battle.FighterAbilityRequirement" preserve="all" />
+    <type fullname="Battle.HitboxBehaviour" preserve="all" />
+    <type fullname="Battle.HurtboxBehaviour" preserve="all" />
+    <type fullname="Battle.PoiseArmor" preserve="all" />
+    <type fullname="Battle.SetFollowTarget" preserve="all" />
+    <type fullname="Battle.TimelineAbilityEffect" preserve="all" />
+    <type fullname="Battle.TimeManagerUIBehaviour" preserve="all" />
+    <type fullname="Battle.TriggerHurtboxBehaviour" preserve="all" />
+    <type fullname="Battle.UnitAbilityBehaviour" preserve="all" />
+    <type fullname="Battle.UnitControl.StatusMod" preserve="all" />
+    <type fullname="Battle.UnitControl.UnitController" preserve="all" />
+    <type fullname="Battle.UnitControl.UnitStatusManager" preserve="all" />
+    <type fullname="Battle.UnitControllerUIBehaviour" preserve="all" />
+    <type fullname="Battle.UnitHealthBehaviour" preserve="all" />
+    <type fullname="Battle.UnitPanelUIBehaviour" preserve="all" />
+    <type fullname="BattlefieldPosition" preserve="all" />
+    <type fullname="BattleInitTester" preserve="all" />
+    <type fullname="BattleLoader" preserve="all" />
+    <type fullname="BehaviorDesigner.Runtime.BehaviorTree" preserve="all" />
+    <type fullname="ClickableCollider" preserve="all" />
+    <type fullname="ClosestBattlefieldPosition" preserve="all" />
+    <type fullname="CountdownIndicator" preserve="all" />
+    <type fullname="CutoutObject" preserve="all" />
+    <type fullname="DamageDisplayManager" preserve="all" />
+    <type fullname="DamageDisplayNumber" preserve="all" />
+    <type fullname="DirectionRayProvider" preserve="all" />
+    <type fullname="DungeonEntityStateBehaviour" preserve="all" />
+    <type fullname="DungeonState" preserve="all" />
+    <type fullname="DungeonStateManager" preserve="all" />
+    <type fullname="EnemyHitbox" preserve="all" />
+    <type fullname="FighterAbilityController" preserve="all" />
+    <type fullname="FighterComboCounterUI" preserve="all" />
+    <type fullname="FighterPowerUI" preserve="all" />
+    <type fullname="gameControl" preserve="all" />
+    <type fullname="Health" preserve="all" />
+    <type fullname="HealthBar" preserve="all" />
+    <type fullname="InCollliderSelectionProcessor" preserve="all" />
+    <type fullname="InputDirectionProvider" preserve="all" />
+    <type fullname="Interactable" preserve="all" />
+    <type fullname="InteractionController" preserve="all" />
+    <type fullname="KnightAbilityController" preserve="all" />
+    <type fullname="KnightAbilityRequirement" preserve="all" />
+    <type fullname="KnightPowerUI" preserve="all" />
+    <type fullname="LineAttackIndicator" preserve="all" />
+    <type fullname="LootbagUI" preserve="all" />
+    <type fullname="LootGranter" preserve="all" />
+    <type fullname="MenuSceneController" preserve="all" />
+    <type fullname="MobileDisableAutoSwitchControls" preserve="all" />
+    <type fullname="MovementSpeedModifier" preserve="all" />
+    <type fullname="ObjectSelection.ColliderPositionCheck" preserve="all" />
+    <type fullname="ObjectSelection.ColliderSelectionArea" preserve="all" />
+    <type fullname="ObjectSelection.CursorSelector" preserve="all" />
+    <type fullname="ObjectSelection.MouseScreenRayProvider" preserve="all" />
+    <type fullname="ObjectSelection.RaycastPositionCursorSelector" preserve="all" />
+    <type fullname="ObjectSelection.RaycastSelector" preserve="all" />
+    <type fullname="ObjectSelection.RaycastUnitSelector" preserve="all" />
+    <type fullname="ObjectSelection.SelectableCollider" preserve="all" />
+    <type fullname="ObjectSelection.SelectableTargetInfo" preserve="all" />
+    <type fullname="ObjectSelection.SelectionManager" preserve="all" />
+    <type fullname="ObjectSelection.TransformRayProvider" preserve="all" />
+    <type fullname="ObjectSelection.UnitTypeSelectionProcessor" preserve="all" />
+    <type fullname="ObjectSelection.UnityEventSelectionResponse" preserve="all" />
+    <type fullname="PlayerController" preserve="all" />
+    <type fullname="PlayerMovementBehaviour" preserve="all" />
+    <type fullname="PoiseBar" preserve="all" />
+    <type fullname="PresetUnitConfig" preserve="all" />
+    <type fullname="ProjectileBehaviour" preserve="all" />
+    <type fullname="PrototypeGameManager" preserve="all" />
+    <type fullname="PrototypeInputManager" preserve="all" />
+    <type fullname="Resetable" preserve="all" />
+    <type fullname="RPG.Item.Example.ItemExampleControl" preserve="all" />
+    <type fullname="RPG2021.Items.MaterialItemData" preserve="all" />
+    <type fullname="RPG2021.Items.PerkItemData" preserve="all" />
+    <type fullname="RPG2021.Loot.LootPool" preserve="all" />
+    <type fullname="RPG2021.Loot.MaterialReward" preserve="all" />
+    <type fullname="RPG2021.Loot.PerkItemReward" preserve="all" />
+    <type fullname="RPG2021.MaterialInventory" preserve="all" />
+    <type fullname="RPG2021.Perk.StatusModPerk" preserve="all" />
+    <type fullname="RPG2021.PerkInventory" preserve="all" />
+    <type fullname="RPG2021.PlayerCharacter.PlayerCharacterArchetype" preserve="all" />
+    <type fullname="RPG2021.PlayerCharacter.PlayerCharacterManager" preserve="all" />
+    <type fullname="RPG2021.PlayerData" preserve="all" />
+    <type fullname="RPG2021.SceneControl.DungeonResultController" preserve="all" />
+    <type fullname="RPG2021.SceneControl.TitleSceneController" preserve="all" />
+    <type fullname="RPG2021.UI.Items.ItemStorageScroll" preserve="all" />
+    <type fullname="RPG2021.UI.Items.ItemStorageScrollElement" preserve="all" />
+    <type fullname="RPG2021.UI.Items.PerkItemListUI" preserve="all" />
+    <type fullname="RPG2021.UI.PlayerCharacter.CharacterPerkUI" preserve="all" />
+    <type fullname="RPG2021.UI.PlayerCharacter.CharacterStatusUI" preserve="all" />
+    <type fullname="RPG2021.UI.PlayerCharacter.PlayerCharacterManagerUI" preserve="all" />
+    <type fullname="Slepstone.SceneCollection.LoadingScreen" preserve="all" />
+    <type fullname="SpawnerBehaviour" preserve="all" />
+    <type fullname="StarterAssets.StarterAssetsInputs" preserve="all" />
+    <type fullname="StarterAssets.ThirdPersonController" preserve="all" />
+    <type fullname="StarterAssets.UICanvasControllerInput" preserve="all" />
+    <type fullname="TacticalModebehaviour" preserve="all" />
+    <type fullname="TransformTweenClip" preserve="all" />
+    <type fullname="TransformTweenTrack" preserve="all" />
+    <type fullname="TriggerBox" preserve="all" />
+    <type fullname="UIVirtualButton" preserve="all" />
+    <type fullname="UIVirtualJoystick" preserve="all" />
+    <type fullname="UnitAbilityButton" preserve="all" />
+    <type fullname="UnitAnimationBehaviour" preserve="all" />
+    <type fullname="UnitMovementBehaviour" preserve="all" />
+    <type fullname="UnityEventInteractableResponse" preserve="all" />
+    <type fullname="UnlockAbilityModifier" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Febucci.UI.TextAnimator" preserve="all" />
+    <type fullname="Febucci.UI.TextAnimatorPlayer" preserve="all" />
+  </assembly>
+  <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cinemachine.CinemachineBasicMultiChannelPerlin" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachineGroupComposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachineImpulseListener" preserve="all" />
+    <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
+    <type fullname="Cinemachine.CinemachineTargetGroup" preserve="all" />
+    <type fullname="Cinemachine.CinemachineTransposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
+    <type fullname="Cinemachine.NoiseSettings" preserve="all" />
+  </assembly>
+  <assembly fullname="DungeonArchitect.Builders, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DungeonArchitect.Builders.GridFlow.GridFlowMinimapTrackedObject" preserve="all" />
+  </assembly>
+  <assembly fullname="DungeonArchitect.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DungeonArchitect.DungeonSceneProviderData" preserve="all" />
+    <type fullname="DungeonArchitect.Frameworks.Snap.SnapConnection" preserve="all" />
+    <type fullname="DungeonArchitect.PlaceableMarker" preserve="all" />
+  </assembly>
+  <assembly fullname="DungeonArchitect.Modules.Flow.Implementations, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DungeonArchitect.Flow.Impl.SnapGridFlow.Components.SnapGridFlowModule" preserve="all" />
+    <type fullname="DungeonArchitect.Flow.Impl.SnapGridFlow.SnapGridFlowModuleBounds" preserve="all" />
+  </assembly>
+  <assembly fullname="DungeonArchitect.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DungeonArchitect.Samples.GridFlow.LockedDoor" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackCameraShake" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackFreezeFrame" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackImage" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackParticles" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackPosition" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackRotation" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbacks" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackScale" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackTimescaleModifier" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMTimeManager" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMFeedbackCinemachineImpulse" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks.MMTools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackSound" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks.PostProcessing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMFeedbackBloom" preserve="all" />
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMFeedbackChromaticAberration" preserve="all" />
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMFeedbackColorGrading" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks.URP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMFeedbackGlobalPPVolumeAutoBlend_URP" preserve="all" />
+    <type fullname="MoreMountains.FeedbacksForThirdParty.MMGlobalPostProcessingVolumeAutoBlend_URP" preserve="all" />
+  </assembly>
+  <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Tools.MMFaceDirection" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMFollowTarget" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMHealthBar" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMProgressBar" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMSimpleObjectPooler" preserve="all" />
+  </assembly>
+  <assembly fullname="NavMeshComponents, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshSurface" preserve="all" />
+  </assembly>
+  <assembly fullname="ShapesRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Shapes.Disc" preserve="all" />
+    <type fullname="Shapes.Line" preserve="all" />
+    <type fullname="Shapes.Rectangle" preserve="all" />
+  </assembly>
+  <assembly fullname="Slepstone.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Slepstone.Attribute.IntAttribute" preserve="all" />
+    <type fullname="Slepstone.CameraTargetControl.CameraTarget" preserve="all" />
+    <type fullname="Slepstone.CameraTargetControl.CameraTargetArea" preserve="all" />
+    <type fullname="Slepstone.Damage.Damagable" preserve="all" />
+    <type fullname="Slepstone.SaveSystem.SavableObject" preserve="all" />
+    <type fullname="Slepstone.SaveSystem.SaveFile" preserve="all" />
+    <type fullname="Slepstone.SaveSystem.SaveSystemManager" preserve="all" />
+    <type fullname="Slepstone.SceneCollection.BootLoader" preserve="all" />
+    <type fullname="Slepstone.SceneCollection.SceneCollectionLoader" preserve="all" />
+    <type fullname="Slepstone.SceneCollection.SceneCollectionObject" preserve="all" />
+    <type fullname="Slepstone.SceneCollection.SceneLoader" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-timeline, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.Playables.SpineAnimationStateClip" preserve="all" />
+    <type fullname="Spine.Unity.Playables.SpineAnimationStateTrack" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.AnimationReferenceAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-unity-examples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.Examples.Rotator" preserve="all" />
+    <type fullname="Spine.Unity.Examples.SkeletonGhost" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.PlayerInput" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ProBuilder.ProBuilderMesh" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
+    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ChannelMixer" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ChromaticAberration" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.FilmGrain" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.LensDistortion" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.MotionBlur" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.PaniniProjection" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.WhiteBalance" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ActivationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ControlPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ControlTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalEmitter" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalReceiver" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbeGroup" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.CharacterController" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+</linker>

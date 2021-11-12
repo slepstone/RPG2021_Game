@@ -25,6 +25,7 @@
     <type fullname="BattlefieldPosition" preserve="all" />
     <type fullname="BattleInitTester" preserve="all" />
     <type fullname="BattleLoader" preserve="all" />
+    <type fullname="BattleSimulationController" preserve="all" />
     <type fullname="BehaviorDesigner.Runtime.BehaviorTree" preserve="all" />
     <type fullname="ClickableCollider" preserve="all" />
     <type fullname="ClosestBattlefieldPosition" preserve="all" />
@@ -32,11 +33,17 @@
     <type fullname="CutoutObject" preserve="all" />
     <type fullname="DamageDisplayManager" preserve="all" />
     <type fullname="DamageDisplayNumber" preserve="all" />
+    <type fullname="DefaultDamageHandler" preserve="all" />
+    <type fullname="DefaultKnockbackHandler" preserve="all" />
     <type fullname="DirectionRayProvider" preserve="all" />
     <type fullname="DungeonEntityStateBehaviour" preserve="all" />
     <type fullname="DungeonState" preserve="all" />
     <type fullname="DungeonStateManager" preserve="all" />
+    <type fullname="EnemyData" preserve="all" />
     <type fullname="EnemyHitbox" preserve="all" />
+    <type fullname="EnemyListScrollElement" preserve="all" />
+    <type fullname="EnemyListUIController" preserve="all" />
+    <type fullname="EnemyUnitBehaviour" preserve="all" />
     <type fullname="FighterAbilityController" preserve="all" />
     <type fullname="FighterComboCounterUI" preserve="all" />
     <type fullname="FighterPowerUI" preserve="all" />
@@ -44,6 +51,7 @@
     <type fullname="HealthBar" preserve="all" />
     <type fullname="InCollliderSelectionProcessor" preserve="all" />
     <type fullname="InputDirectionProvider" preserve="all" />
+    <type fullname="IntAttributeBar" preserve="all" />
     <type fullname="Interactable" preserve="all" />
     <type fullname="InteractionController" preserve="all" />
     <type fullname="KnightAbilityController" preserve="all" />
@@ -70,6 +78,7 @@
     <type fullname="ObjectSelection.UnityEventSelectionResponse" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
     <type fullname="PlayerMovementBehaviour" preserve="all" />
+    <type fullname="PlayerUnitBehaviour" preserve="all" />
     <type fullname="PoiseBar" preserve="all" />
     <type fullname="PresetUnitConfig" preserve="all" />
     <type fullname="ProjectileBehaviour" preserve="all" />
@@ -131,12 +140,18 @@
     <type fullname="Cinemachine.NoiseSettings" preserve="all" />
   </assembly>
   <assembly fullname="DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Doozy.Runtime.Reactor.Animators.UIAnimator" preserve="all" />
     <type fullname="Doozy.Runtime.Reactor.Targets.ImageColorTarget" preserve="all" />
+    <type fullname="Doozy.Runtime.Reactor.Targets.TextMeshProColorTarget" preserve="all" />
     <type fullname="Doozy.Runtime.UIManager.Animators.UIContainerUIAnimator" preserve="all" />
     <type fullname="Doozy.Runtime.UIManager.Animators.UISelectableColorAnimator" preserve="all" />
     <type fullname="Doozy.Runtime.UIManager.Animators.UISelectableUIAnimator" preserve="all" />
     <type fullname="Doozy.Runtime.UIManager.Components.UIButton" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Components.UIToggle" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Components.UIToggleGroup" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Containers.UIContainer" preserve="all" />
     <type fullname="Doozy.Runtime.UIManager.Containers.UIView" preserve="all" />
+    <type fullname="Doozy.Runtime.UIManager.Modules.AnimatorModule" preserve="all" />
   </assembly>
   <assembly fullname="DungeonArchitect.Builders, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DungeonArchitect.Builders.GridFlow.GridFlowMinimapTrackedObject" preserve="all" />
@@ -155,6 +170,7 @@
   </assembly>
   <assembly fullname="MoreMountains.Feedbacks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.Feedbacks.MMFeedbackCameraShake" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackCameraZoom" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMFeedbackFreezeFrame" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMFeedbackImage" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMFeedbackParticles" preserve="all" />
@@ -192,10 +208,17 @@
     <type fullname="Shapes.Rectangle" preserve="all" />
   </assembly>
   <assembly fullname="Slepstone.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Slepstone.Attribute.FloatAttribute" preserve="all" />
     <type fullname="Slepstone.Attribute.IntAttribute" preserve="all" />
     <type fullname="Slepstone.CameraTargetControl.CameraTarget" preserve="all" />
     <type fullname="Slepstone.CameraTargetControl.CameraTargetArea" preserve="all" />
     <type fullname="Slepstone.Damage.Damagable" preserve="all" />
+    <type fullname="Slepstone.Damage.DamageAlignment" preserve="all" />
+    <type fullname="Slepstone.Damage.Damager" preserve="all" />
+    <type fullname="Slepstone.Damage.DamageType" preserve="all" />
+    <type fullname="Slepstone.Damage.DebugDamageHandler" preserve="all" />
+    <type fullname="Slepstone.Damage.Hitbox" preserve="all" />
+    <type fullname="Slepstone.Damage.Hurtbox" preserve="all" />
     <type fullname="Slepstone.SaveSystem.SavableObject" preserve="all" />
     <type fullname="Slepstone.SaveSystem.SaveFile" preserve="all" />
     <type fullname="Slepstone.SaveSystem.SaveSystemManager" preserve="all" />
@@ -336,6 +359,8 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
@@ -343,7 +368,9 @@
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
   </assembly>
